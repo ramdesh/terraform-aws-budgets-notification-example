@@ -5,5 +5,5 @@ Example repo to configure AWS Budget alerting using Terraform
 
 * `terraform init`
 * `terraform plan -state=my.tfstate -var-file myvars.tfvars -out my.plan`
-* `terraform apply`
+* `terraform apply "my.plan"`
 
